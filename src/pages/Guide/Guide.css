@@ -1,0 +1,78 @@
+/* Container */
+.guide-container {
+    /* max-width: 600px; */
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title */
+.guide-title {
+    text-align: start;
+    font-size: 40px;
+    font-weight: bold;
+    color: #1a8f8d;
+    margin-bottom: 20px;
+}
+
+/* Content */
+.guide-content {
+    text-align: left;
+    font-size: 18px;
+    line-height: 2.5;
+    color: #333;
+}
+
+/* List */
+/* .guide-content ul {
+    padding-left: 20px;
+} */
+
+/* .guide-content ul li {
+    margin: 5px 0;
+} */
+
+/* Confirmation Checkbox */
+.confirmation {
+    /* text-align: start; */
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 10px;
+}
+
+.confirmation input {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+/* Start Button */
+.start-button {
+    margin-top: 30px;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    border: solid 1px #1a8f8d;
+    color: #2b265c;
+    cursor: not-allowed;
+    transition: background 0.3s, transform 0.2s;
+}
+
+/* Active Button when Checkbox is Checked */
+.start-button.active {
+    background-color: #1a8f8d;
+    color: white;
+    cursor: pointer;
+}
+
+.start-button.active:hover {
+    transform: scale(1.05);
+}
